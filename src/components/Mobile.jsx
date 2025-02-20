@@ -6,7 +6,7 @@ import moov from "../assets/images/moov.png";
 import mtn from "../assets/images/logo-mtn.jpg";
 import appStore from "../assets/images/ic-app-store.jpg";
 import appAndroid from "../assets/images/ic-play-store.jpg";
-import region from "../assets/images/regiongoh.png";
+import region from "../assets/images/plan.jpg";
 
 const Mobile = () => {
   return (
@@ -62,10 +62,10 @@ const Mobile = () => {
         </div>
       </section>
   
-      <section id="Zone-de-Gagnoa" className="py-12 bg-white text-center">
-        <h2 className="text-3xl font-bold text-red-700 mb-6">Zone de Gagnoa</h2>
+      <section id="Zone-Insta News" className="py-12 bg-white text-center">
+        <h2 className="text-3xl font-bold text-red-700 mb-6">Zone Insta News</h2>
         <div className="flex justify-center">
-          <img src={region} alt="Zone de Gagnoa" className="w-100 h-auto rounded-lg shadow-lg" />
+          <img src={region} alt="Zone de Gagnoa" className="w-full h-auto rounded-lg shadow-lg" />
         </div>
       </section>
     </>
